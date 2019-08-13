@@ -20,7 +20,8 @@ public class AnonymusClassProblem {
         });
         return button;
     }
-    
+
+
     public JButton addJButtonLambdas() {
         JButton button = new JButton("Test Button");
         button.addActionListener(event -> System.out.println("button clicked"));
